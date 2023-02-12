@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+    <title>Buisier Development</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img
+          class="header-logo"
+          alt="Buisier Development Logo"
+          src="Images/logo.png"
+        />
+      </a>
+      <nav class="nav-open main-nav">
+        <ul class="nav-list">
+          <li><a href="#exp" class="main-nav-link">Villa Atlezza</a></li>
+          <li><a href="#villa" class="main-nav-link">Villas</a></li>
+          <li><a href="#about" class="main-nav-link">About Us</a></li>
+          <li>
+            <a href="#contact" class="btn main-nav-link btn-top">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container-main">
+          <h1 class="heading-primary">
+            looking for a great place to start out your new life?
+          </h1>
+          <a href="#" class="btn btn-primary">Contact Us</a>
+          <a href="#" class="btn-secondary">Find out more &rarr;</a>
+        </div>
+      </section>
+      <!--  -->
+      <section class="section-experience" id="exp">
+        <div class="container grid grid--3-cols-mod">
+          <div class="img-box">
+            <img class="img margin-btm-sm" src="Images/indoor.png" />
+
+            <img class="img" src="Images/indoor2.png" />
+          </div>
+          <div class="img-box grid--span-column">
+            <img class="img" src="Images/outdoor.png" />
+          </div>
+          <div class="text-box text-pos span-exp">
+            <h2 class="heading-secondary margin-btm-sm">
+              EXPERIENCE MEDITERRANEAN LIVING AT VILLA ALTEZZA
+            </h2>
+            <p class="text-description margin-btm-md">
+              Located on top of a hill with endless views of Lake Lewisville,
+              one of the largest lakes in North Texas, Villa Altezza is a
+              timeless work of contemporary architecture. This resort-inspired
+              modern Mediterranean home will offer you privacy, security, and
+              luxury in the exclusive gated community of Blue Waters Edge in The
+              Colony, Texas.
+            </p>
+            <div class="btn-box">
+              <a href="#" class="btn btn-exp-r margin-right-md" href="#"
+                >Contact Us</a
+              >
+              <a href="#" class="btn-exp" href="#">find out more &rarr;</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+      <section class="section-villa" id="villa">
+        <div class="container">
+          <h2 class="heading-secondary center-h margin-btm-md">
+            Villas Models
+          </h2>
+          <div class="grid grid--2-cols-md">
+            <div class="villa-img col-1">
+              <img src="Images/villa1.png" />
+              <span class="image-text">Villa Sol</span>
+            </div>
+            <div class="villa-img col-2">
+              <img src="Images/villa2.png" />
+              <span class="image-text">Villa moro</span>
+            </div>
+          </div>
+          <div class="grid grid--2-cols-bt">
+            <div class="villa-text">
+              <h3 class="heading-tertiary margin-btm-md">Villa Rustica</h3>
+              <p class="villa-title">Strive for creativity.</p>
+              <p class="villa-description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Et
+                odio pellentesque diam volutpat. Nunc f aucibus a pellentesque
+                sit amet porttitor.
+              </p>
+              <a href="#" class="btn-villa btn-secondary"
+                >View all models &rarr;</a
+              >
+            </div>
+            <div class="villa-img">
+              <img src="Images/villa3.png" />
+              <span class="image-text">Magic Rocks</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+
+      <section class="section-modern" id="modern">
+        <div class="container">
+          <div class="grid grid--2-cols gap-sm align-items-c">
+            <div class="modern-text-box">
+              <h2 class="heading-secondary margin-btm-md">
+                Modern Mediterranean style and lifestyle merge at Buisier
+                Development properties.
+              </h2>
+              <div class="btn-box-modern">
+                <a href="#" class="btn-modern margin-right-md">Contact Us</a>
+                <a href="#" class="btn-modern-secondary"
+                  >find out more &rarr;</a
+                >
+              </div>
+            </div>
+            <div class="img-box-modern">
+              <img src="images/modern1.png" alt="image of the modern house" />
+            </div>
+            <div class="img-box-modern">
+              <span class="image-text">Find out more &rarr;</span>
+              <img src="images/modern2.png" alt="image of the modern house" />
+            </div>
+            <div class="img-box-modern">
+              <img src="images/modern3.png" alt="image of the modern house" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--  -->
+
+      <section class="section-about" id="about">
+        <div class="container grid grid--2-cols grid--about">
+          <div class="about-text-box">
+            <h2 class="heading-secondary margin-btm-md">About Us</h2>
+            <p class="about-description margin-btm-md">
+              <span>Buisier Development</span> is a family-owned and operated
+              home builder based in Dallas with an expansive vision for North
+              Texas real estate. The Buisier family descends from the longest
+              coastline on the Mediterranean Sea, Libya, and has carried a
+              passion for real estate for generations. The founder’s father
+              started as a real estate entrepreneur in the early 50s, when
+              post-war reconstruction was experiencing a renaissance.
+            </p>
+            <a href="#" class="btn-modern-secondary">find out more &rarr;</a>
+          </div>
+          <div class="about-image-box">
+            <img src="images/about.jpg" alt="Image of the founders" />
+          </div>
+        </div>
+      </section>
+
+      <!--  -->
+
+      <section class="section-team" id="team">
+        <div class="container">
+          <h2 class="heading-secondary text-align-c margin-btm-md">our team</h2>
+
+          <div class="flex gap-md grid-mobile">
+            <figure class="img-team">
+              <img src="images/team1.png" alt="image of a team member" />
+              <div class="team-text-box margin-top-md text-align-c">
+                <p class="team-name">Aalaa Busier</p>
+                <p class="team-role">Associate Accounts Manager</p>
+              </div>
+            </figure>
+            <figure class="img-team">
+              <img src="images/team2.png" alt="image of a team member" />
+              <div class="team-text-box margin-top-md text-align-c">
+                <p class="team-name">Saleh Busier</p>
+                <p class="team-role">Business Developer</p>
+              </div>
+            </figure>
+            <figure class="img-team">
+              <img src="images/team3.png" alt="image of a team member" />
+              <div class="team-text-box margin-top-md text-align-c">
+                <p class="team-name">Dina Busier</p>
+                <p class="team-role">Project Manager</p>
+              </div>
+            </figure>
+            <figure class="img-team">
+              <img src="images/team4.png" alt="image of a team member" />
+              <div class="team-text-box margin-top-md text-align-c">
+                <p class="team-name">Mohamed Busier</p>
+                <p class="team-role">CEO/Founder</p>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <!--  -->
+
+      <section class="section-contact" id="contact">
+        <div class="container">
+          <div class="contact-flex">
+            <h2 class="heading-secondary contact-title text-align-c">
+              Home is where the heart is.
+            </h2>
+            <p class="contact-text text-align-c-mbl">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dola.
+            </p>
+            <div class="btn-box-contact">
+              <a href="#" class="contact-btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--  -->
+    <footer class="footer" id="footer">
+      <div class="container grid footer-grid-4-cols footer-gap padding-bt-sm">
+        <div class="logo-links">
+          <div class="flex-footer">
+            <div class="logo-image">
+              <a href="#">
+                <img
+                  class="header-logo"
+                  alt="Buisier Development Logo"
+                  src="Images/logo.png"
+                />
+              </a>
+            </div>
+            <div class="social-links">
+              <!-- <img src="images/twitter.ico" alt="twitter logo" />
+              <img src="images/facebook.ico" alt="twitter logo" />
+              <img src="images/instagram.ico" alt="twitter logo" /> -->
+              <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+              <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+              <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+            </div>
+            <span class="footer-text">Stay connected with us</span>
+          </div>
+          <form class="cta-form" name="sign-up">
+            <div class="flex">
+              <input
+                class="input-lf"
+                id="email"
+                type="text"
+                placeholder="Email"
+                required
+              />
+              <button class="form-btn btn-sm">submit</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="footer-link">
+          <h3 class="link-header margin-btm-md">Company</h3>
+          <ul class="footer-links">
+            <li class="links"><a href="#">About Us</a></li>
+            <li class="links"><a href="#">Our Team</a></li>
+            <li class="links"><a href="#">Real Estate</a></li>
+            <li class="links"><a href="#">Terms of Use</a></li>
+            <li class="links"><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-link pos-mbl">
+          <h3 class="link-header margin-btm-md">Villas</h3>
+          <ul class="footer-links">
+            <li class="links"><a href="#">Villa Models</a></li>
+            <li class="links"><a href="#">Villa Atlezza</a></li>
+            <li class="links"><a href="#">Mediterranian Style</a></li>
+          </ul>
+        </div>
+
+        <form class="cta-form pos-mbl-bt" name="sign-up">
+          <div class="flex-footer">
+            <h3 class="link-header">Contact Us</h3>
+            <input
+              class="input-rt"
+              id="full-name"
+              type="text"
+              placeholder="FULL NAME"
+              required
+            />
+
+            <input
+              class="input-rt"
+              id="email"
+              type="email"
+              placeholder="EMAIL"
+              required
+            />
+
+            <textarea
+              class="text-area"
+              name="textarea"
+              rows="6"
+              cols="40"
+              placeholder="MESSAGE"
+              required
+            ></textarea>
+
+            <!-- <textarea id="message" name="" placeholder="MESSAGE"> </textarea> -->
+            <button class="form-btn">Send message</button>
+          </div>
+        </form>
+      </div>
+      <p class="copyright text-align-c">
+        &copy; 2022 Buisier Development.&#8212; All Rights Reserved.
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

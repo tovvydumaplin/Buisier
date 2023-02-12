@@ -1,0 +1,387 @@
+/* 1424 px screen width */
+@media (max-width: 89em) {
+  .container-main {
+    padding: 43rem 70rem 0 0;
+  }
+
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+  .villa-title {
+    font-size: 2.1rem;
+    margin-bottom: 4.8rem;
+  }
+  .villa-description {
+    font-size: 1.3rem;
+    margin-bottom: 5.5rem;
+  }
+}
+
+/* BELOW 1200px (Landscape Tablets) */
+/* 1200px */
+@media (max-width: 75em) {
+  html {
+    /* 9px / 16px = 56.25% */
+    font-size: 56.25%;
+  }
+
+  .input-rt,
+  .text-area,
+  .form-btn {
+    width: 95%;
+  }
+
+  .container-main {
+    padding: 43rem 60rem 0 0;
+  }
+
+  .villa-text {
+    padding: 2rem 4.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.5rem;
+  }
+  .villa-title {
+    font-size: 2.1rem;
+    margin-bottom: 3.8rem;
+  }
+  .villa-description {
+    font-size: 1.3rem;
+    margin-bottom: 4.5rem;
+  }
+
+  .img-box {
+    align-self: center;
+  }
+  .footer-gap {
+    gap: 3rem;
+  }
+}
+
+/* BELOW 963 (Tablets) */
+/* 963px */
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+  .text-description {
+    font-size: 1.6rem;
+    line-height: 1.45;
+  }
+  .text-box {
+    padding-right: 3rem;
+  }
+
+  .input-rt,
+  .text-area,
+  .form-btn {
+    width: 90%;
+    letter-spacing: normal;
+    font-size: 1.7rem;
+  }
+
+  .heading-primary {
+    font-size: 4rem;
+  }
+  .container-main {
+    padding: 43rem 49rem 0 0;
+  }
+
+  .villa-text {
+    padding: 1.5rem 1.5rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+  .villa-title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+  .villa-description {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .btn-secondary:link,
+  .btn-secondary:visited {
+    font-size: 1.3rem;
+  }
+
+  .header-logo {
+    width: 80%;
+  }
+
+  .input-lf {
+    width: 100%;
+  }
+  .btn.sm {
+    width: 10%;
+  }
+  .footer-gap {
+    gap: 1rem;
+  }
+}
+
+/* BELOW 720px (Smaller Tablets) */
+/* 720px */
+@media (max-width: 45.37em) {
+  /* Mobile navigation */
+
+  .container-main {
+    padding: 60rem 30rem 0 0;
+  }
+
+  .heading-secondary {
+    font-size: 2rem;
+  }
+  .text-description {
+    font-size: 1.3rem;
+    line-height: 1.45;
+  }
+  .text-box {
+    padding-right: 2rem;
+  }
+
+  .btn-exp-r {
+  }
+  .btn-exp {
+  }
+
+  .text-box .btn:link,
+  .text-box .btn-exp:link,
+  .text-box .btn:visited,
+  .text-box .btn-exp:visited {
+    font-size: 1.5rem;
+  }
+
+  .text-box .btn:hover,
+  .text-box .btn:active {
+    background-color: #06364f;
+
+    color: #fff;
+  }
+
+  .btn-modern:link,
+  .btn-modern-secondary:link {
+    font-size: 1.5rem;
+  }
+
+  /* Mobile */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+  .btn-mobile-nav-container {
+    display: block;
+    z-index: 9999;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    color: #06364f;
+    text-transform: uppercase;
+    font-size: 2.9rem;
+    text-decoration: none;
+  }
+  .main-nav-link:hover,
+  .main-nav-link:active {
+    color: #0075b4;
+  }
+
+  .btn-top:hover,
+  .btn-top:active {
+    background-color: #06364f;
+    color: #fff;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+  .main-nav {
+    background-color: rgba(255, 255, 255, 0.6);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+
+    /* step 1 - Hide it Visually */
+    opacity: 0;
+    /* step 2 - Make it unaccessible to mouse and keyboard*/
+    pointer-events: none;
+
+    /* step 3 - Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+    z-index: 100;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-link {
+    flex-direction: column;
+    gap: 2.8rem;
+  }
+  /* UNTIL HERE */
+
+  .grid--2-cols-md {
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+    grid-auto-flow: dense;
+  }
+
+  .grid--2-cols-bt {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.6rem;
+    grid-auto-flow: dense;
+  }
+
+  .villa-img img {
+    height: 100%;
+  }
+
+  .footer-grid-4-cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .cta-form {
+  }
+
+  .section-experience .grid--3-cols-mod {
+    grid-template-columns: 30fr 47fr;
+    column-gap: 1.6rem;
+  }
+
+  .span-exp {
+    grid-column: span 2;
+    margin-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .span-exp .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+  .modern-text-box .heading-secondary {
+    font-size: 2.2rem;
+    line-height: 1.2;
+  }
+
+  .span-exp .text-description {
+    font-size: 1.6rem;
+  }
+
+  .section-about .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    padding: 10rem 0 0 0;
+  }
+}
+
+/******************************************************************/
+/* BELOW 544px (Phones) */
+
+@media (max-width: 34em) {
+  .container-main {
+    padding: 60rem 15rem 0 0;
+  }
+  .section-experience .grid--3-cols-mod {
+    grid-template-columns: 30fr 47fr;
+    column-gap: 1.6rem;
+  }
+
+  .villa-img span {
+    font-size: 1.6rem;
+  }
+  .grid--2-cols-bt,
+  .grid--2-cols-md,
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .modern-text-box .heading-secondary {
+    text-align: center;
+  }
+
+  .btn-box-modern {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .text-align-c-mbl {
+    text-align: center;
+  }
+
+  .footer-grid-4-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pos-mbl {
+    grid-column: 2;
+  }
+  .pos-mbl-bt {
+    grid-column: 1/2;
+    grid-row: 2;
+  }
+
+  .header-logo {
+    width: 80%;
+  }
+
+  .footer-gap {
+    row-gap: 8rem;
+    column-gap: 5rem;
+  }
+  .footer-text {
+    font-size: 2rem;
+  }
+  .form-btn {
+    font-size: 1.5rem;
+  }
+
+  .input-rt {
+    width: 80%;
+  }
+}
